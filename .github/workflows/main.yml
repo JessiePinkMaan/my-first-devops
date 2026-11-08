@@ -11,7 +11,7 @@ jobs:
       uses: action/checkout@v3
 
     - name: Set up python
-      uses: action/setup-pyrhon@v4
+      uses: action/setup-python@v4
       with:
         python-version: '3.10'
 
